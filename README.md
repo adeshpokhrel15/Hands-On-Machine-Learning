@@ -12,6 +12,6 @@ is 28×28 pixels, and each feature simply represents one pixel’s intensity, fr
 (white) to 255 (black). Let’s take a peek at one digit from the dataset. All you need to
 do is grab an instance’s feature vector, reshape it to a 28×28 array, and display it using
 Matplotlib’s imshow() function.
-
-
-[!Image]<img scr=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621076062/1_v7nx5p.png></img>
+<h4>Image of the Result</h4>
+<img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621076062/1_v7nx5p.png> </img>
+This looks like a 5, and indeed that’s what the label tells us.
