@@ -15,3 +15,22 @@ Matplotlib’s imshow() function.
 <h4>Image of the Result</h4>
 <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621076062/1_v7nx5p.png> </img>
 This looks like a 5, and indeed that’s what the label tells us.
+
+
+# 2.Linear Regression Model
+Linear Regression Model makes prediction by simply computing a weighted sum of the input features plus a constant called the bias term. Here I have done the hourse price predication using the dataset for finding out price of house on different parameters. I did exploratory Data Analysis, split the training and testing data, Model Evaluation and Predictions. 
+
+### Problem Statement
+Lets predict the house price for regions in the USA. The dataset is brought from kaggle, and used Linear Regressioon Model. I created a model which help me to estimate price of house to sell for.
+
+Dataset contains 7 columns and 5000 rows with CSV extension. 
+The data contains the following columns :
+- 'Avg. Area Income': Avg. Income of householder of the city house is located in.
+- 'Avg. Area House Age': Avg. Age of Houses in same city.
+- 'Avg. Area Number of Rooms': Avg. Number of Rooms for Houses in same city.
+- 'Avg. Area Number of Bedrooms': Avg. Number of Bedrooms for Houses in same city.
+- 'Area Population': Population of city.
+- 'Price': Price that the house sold at.
+- 'Address': Address of the houses.
+
+
