@@ -33,4 +33,8 @@ The data contains the following columns :
 - 'Price': Price that the house sold at.
 - 'Address': Address of the houses.
 
+<h3>Lets see the Regression model graph: </h3>
+ <br>
+ <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621148749/LinearRefression_byq72d.png> </img> </br>
+
 
