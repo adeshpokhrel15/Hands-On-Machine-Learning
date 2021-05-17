@@ -36,5 +36,24 @@ The data contains the following columns :
 <h3>Lets see the Regression model graph: </h3>
  <br>
  <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621148749/LinearRefression_byq72d.png> </img> </br>
+ 
+ # 3.Logistic Regression Model
+Logistic regression is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables. Logistic regression predicts the output of a categorical dependent variable.
 
-
+### Problem Statement 
+Lets see here How the Loan Status is heavily dependent on the Credit History . The Logistic Regression algorithm gives us how much accuracy results.
+Data set contains the 13 columns and 614 rows.
+The data contains the following columns :
+- 'Loan_ID': For their loan id
+- 'Gender' : Male or FeMale
+- 'Married'	: Weither married or not
+- Dependents' : Depedent or Independent  
+- 'Education' : Education Level
+- 'Self_Employed': Employed or Not
+-	'ApplicantIncome': Thier Income
+-	'CoapplicantIncome': To know applicant income
+-	'LoanAmount': How much loan they have taken
+-	'Loan_Amount_Term': Their loan amount terms
+-	'Credit_History':	Their hostory of credit
+-	'Property_Area': Their area of property
+-	'Loan_Status' : What their Loan status is
