@@ -40,6 +40,13 @@ The data contains the following columns :
  # 3.Logistic Regression Model
 Logistic regression is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables. Logistic regression predicts the output of a categorical dependent variable.
 
+### Library we used: 
+- numpy 
+- pandas 
+- matplotlib
+- matplotlib
+- seaborn
+
 ### Problem Statement 
 Lets see here How the Loan Status is heavily dependent on the Credit History . The Logistic Regression algorithm gives us how much accuracy results.
 Data set contains the 13 columns and 614 rows.
