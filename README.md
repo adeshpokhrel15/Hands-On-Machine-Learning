@@ -64,3 +64,14 @@ The data contains the following columns :
 -	'Credit_History':	Their hostory of credit
 -	'Property_Area': Their area of property
 -	'Loan_Status' : What their Loan status is
+
+# 4.SVM 
+SVM works by mapping data to a high-dimensional feature space so that data points can be categorized,even when the data are not otherwise linearly separable (This gets done by kernel function of SVM classifier). A separator between the categories is found, then the data is transformed in such a way that the separator could be drawn as a hyperplane.
+
+Here, we used SVM to build and train a model using human cell records, and classify cells to whether the samples are benign (mild state) or malignant (evil state).
+
+Here the Dataset contains 12 columns where ID number,Clump,	UnifSize,	UnifShape,	MargAdh,	SingEpiSize,	BareNuc,	BlandChrom,	NormNucl,	Mit	Class helps to find the weather the person is suffering from cancer or not. We collected 700 persons data for this work.
+
+Here we train our data using SVM library using sklearn model. 
+Finally for out results we can check weather the person is suffering from Cancer or not.
+
