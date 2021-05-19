@@ -74,4 +74,48 @@ Here the Dataset contains 12 columns where ID number,Clump,	UnifSize,	UnifShape,
 
 Here we train our data using SVM library using sklearn model. 
 Finally for out results we can check weather the person is suffering from Cancer or not.
+<h3>Lets see the SVM model graph: </h3>
+<br>
+ <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621405022/svm_qvyxaq.png> </img> </br>
+
+#5 Decisions Tree
+A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements. Decision trees are commonly used in operations research, specifically in decision analysis, to help identify a strategy most likely to reach a goal, but are also a popular tool in machine learning.
+
+### Problem Statement
+Lets predict the patients suffering from heart diseases or not. The dataset is brought from kaggle, and used Decision Tree Model. I created a model which help me to estimate for the patients suffering or not.
+
+Dataset contains 14 columns and 303 rows with CSV extension. 
+The data contains the following columns :
+-age:			age
+-sex:			1: male, 0: female
+-cp:			chest pain type, 1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic
+-trestbps:			resting blood pressure
+-chol:			 serum cholestoral in mg/dl
+-fbs:			fasting blood sugar > 120 mg/dl
+-restecg:			resting electrocardiographic results (values 0,1,2)
+-thalach:			 maximum heart rate achieved
+-exang:			exercise induced angina
+-oldpeak:			oldpeak = ST depression induced by exercise relative to rest
+-slope:			the slope of the peak exercise ST segment
+-ca:			number of major vessels (0-3) colored by flourosopy
+-thal:			thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+
+<h3>Lets see the Decision Tree graph: </h3>
+ <br>
+ <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621405016/tumblr_inline_o24t595vJi1tcmcm4_1280_qkii15.png height=300 width=300> </img> </br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
