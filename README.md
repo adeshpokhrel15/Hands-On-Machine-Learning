@@ -86,23 +86,46 @@ Lets predict the patients suffering from heart diseases or not. The dataset is b
 
 Dataset contains 14 columns and 303 rows with CSV extension. 
 The data contains the following columns :
--age:			age
--sex:			1: male, 0: female
--cp:			chest pain type, 1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic
--trestbps:			resting blood pressure
--chol:			 serum cholestoral in mg/dl
--fbs:			fasting blood sugar > 120 mg/dl
--restecg:			resting electrocardiographic results (values 0,1,2)
--thalach:			 maximum heart rate achieved
--exang:			exercise induced angina
--oldpeak:			oldpeak = ST depression induced by exercise relative to rest
--slope:			the slope of the peak exercise ST segment
--ca:			number of major vessels (0-3) colored by flourosopy
--thal:			thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+- 'age' :			age
+- 'sex' :			1: male, 0: female
+- 'cp' :			chest pain type, 1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic
+- 'trestbps' :			resting blood pressure
+- 'chol' :		 serum cholestoral in mg/dl
+- 'fbs' :			fasting blood sugar > 120 mg/dl
+- 'restecg' :			resting electrocardiographic results (values 0,1,2)
+- 'thalach' :			 maximum heart rate achieved
+- 'exang' :			exercise induced angina
+- 'oldpeak' :			oldpeak = ST depression induced by exercise relative to rest
+- 'slope' :			the slope of the peak exercise ST segment
+- 'ca' :			number of major vessels (0-3) colored by flourosopy
+- 'thal' :			thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
 <h3>Lets see the Decision Tree graph: </h3>
  <br>
  <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621405016/tumblr_inline_o24t595vJi1tcmcm4_1280_qkii15.png height=300 width=300> </img> </br>
+ 
+ # 6.KNN(K-nearest Neighbors)
+ K-Nearest Neighbors (KNN) is a conceptually simple yet very powerful algorithm, and for those reasons, it’s one of the most popular machine learning algorithms. Let’s take a deep dive into the KNN algorithm and see exactly how it works. Having a good understanding of how KNN operates will let you appreciated the best and worst use cases for KNN.
+ 
+ #### Problem Statement
+Lets predict the office workers weather they will leave company next year or not. The dataset is brought from kaggle, and used KNN Model. Based on the workers factors we can conclude how many workers will leave the company using KNN model we can solved it.
+The data contains the following columns:
+- 'employee_id'	
+- 'number_project'	
+- 'average_montly_hours'
+- 'time_spend_company'
+- 'Work_accident'	
+- 'left	promotion_last_5years'
+- 'department	salary'
+- 'satisfaction_level'
+- 'last_evaluation'
+ 
+Here based on salary and satisfication level we can say weather the workers will leave the company or not.
+<h3>Lets see the KNN model: </h3>
+ <br>
+ <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621482214/knn_bose1s.jpg height=300 width=300> </img> </br>
+
+
 
 
 
