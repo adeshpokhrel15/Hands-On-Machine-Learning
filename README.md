@@ -124,8 +124,31 @@ Here based on salary and satisfication level we can say weather the workers will
 <h3>Lets see the KNN model: </h3>
  <br>
  <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621482214/knn_bose1s.jpg height=300 width=300> </img> </br>
+ 
+# 7.Random Forest
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees.
 
+#### Problem Statement
+Lets predict the quality of the WINE. The dataset is brought from kaggle, and used Random Forest Model. Based on the several factors of the wine we can conclude how is the conditions of the wine and weather it is drinkable or not.
 
+The data sets contains 1599 rown & 12 columns.
+Here the columns contains the data like:
+- 'Fixed Acidity'
+- 'Volatile Acidity'	
+- 'Citric Acid'
+- 'Residual Sugar'	
+- 'Chlorides'
+- 'Free Sulfur Dioxide'
+- 'Total Sulfur Dioxide'
+- 'Density'
+- 'pH'
+- 'Sulphates'	
+- 'Alcohol'
+- 'Quality'
+Here based on factors of the coulumns we can say weather the wink is good or not.
+<h3>Lets see the SNS heatmap of the dataset: </h3>
+ <br>
+ <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621567400/RF_dhvhfv.png height=300 width=300> </img> </br>
 
 
 
