@@ -149,11 +149,21 @@ Here based on factors of the coulumns we can say weather the wink is good or not
 <h3>Lets see the SNS heatmap of the dataset: </h3>
  <br>
  <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621567400/RF_dhvhfv.png height=300 width=300> </img> </br>
+ 
+ # 8.K-Means Clustering
+K-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
 
+#### Problem Statement
+Here we are using the IRIS flowers classfication. Data we used ais from Kaggle. We classified the IRIS flowers and we predicted what types of IRIS flowers is it.
 
-
-
-
+The data contains the following columns:
+- 'SepalLengthCm'	
+- 'SepalWidthCm'	
+- 'PetalLengthCm'	
+- 'PetalWidthCm'	
+<h3>Lets see the K-Means Clustering figure: </h3>
+ <br>
+ <img src=https://res.cloudinary.com/adeshpokhrel/image/upload/v1621567587/Kmeans_lswnoi.png> </img> </br>
 
 
 
